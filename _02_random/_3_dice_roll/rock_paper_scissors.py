@@ -2,7 +2,6 @@ import random
 from tkinter import Tk, Label, Button, messagebox
 from PIL import ImageTk
 
-
 def onclick(args):
     # TODO 1) Run the program and play many rounds of Rock Paper Scissors.
     #  Does the computer always choose the same thing?

@@ -1,3 +1,5 @@
+
+
 from tkinter import messagebox, Tk
 
 if __name__ == '__main__':
@@ -18,6 +20,7 @@ if __name__ == '__main__':
     #  When converted to integers, the + does an arithmetic add to get 10
     num1_str = '3'
     num2_str = '7'
+    str()
     messagebox.showinfo(None, num1_str + num2_str)
     messagebox.showinfo(None, int(num1_str) + int(num2_str))
 
