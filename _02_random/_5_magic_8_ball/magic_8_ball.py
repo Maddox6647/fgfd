@@ -6,7 +6,7 @@ if __name__ == '__main__':
     window.withdraw()
 
     # TODO Get the user to enter a question for the 8 ball to answer
-    simpledialog.askstring(title='djhsdagjdfsgkfgfhsdghfkagkhfasghsdfk', prompt='PLS ask the magic 8 ball a question about yourself')
+    answer = simpledialog.askstring(title='djhsdagjdfsgkfgfhsdghfkagkhfasghsdfk', prompt='PLS ask the magic 8 ball a question about yourself')
     # Make a variable and initialize it to a random number between 0 and 3
     bobby1545 = random.randint(0, 3)
     # If the random number is 0
